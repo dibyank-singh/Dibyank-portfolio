@@ -1,0 +1,27 @@
+.footer-style{
+  
+    padding: 12px;
+    /* background-color: black; */
+    display: flex;
+   justify-content: center;
+   background-color: #212930;
+
+    /* text-align: center; */
+}
+.inner-para{
+    color: #fff;
+    font-size: large;
+    font-weight: 600;
+}
+
+@media screen and (max-width:480px){ 
+    .footer-style{
+        padding: 15px;
+    }
+    .inner-para{
+        color: #fff;
+        font-size: 12px;
+        font-weight: 600;
+    }
+}
+

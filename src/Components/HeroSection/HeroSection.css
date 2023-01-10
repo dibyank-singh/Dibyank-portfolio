@@ -1,0 +1,142 @@
+section {
+    /* margin-top: 15px; */
+
+    /* background-color:#f0f1f7; */
+}
+
+.main {
+    height: 60vh;
+    display: flex;
+    gap: 0px;
+    /* background-color: rgba(241, 233, 186, 0.8); */
+
+}
+
+.left-div-herosec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.myimg img {
+    width: 22vw;
+    height: 40vh;
+    border-radius: 20px;
+    border: 2px solid rgb(106, 103, 103);
+}
+
+.right-div {
+
+    flex: 1;
+
+}
+
+.content {
+    margin-top: 45px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+#text-head-sec {
+    font-size: 35px;
+    color: #D9453D;
+}
+
+#text-para {
+    font-size: 20px;
+    font-weight: 800;
+    opacity: 0.8;
+    color: black;
+    font-family: 'Space Mono', monospace;
+
+}
+
+/* .inn-para{
+    color: black;
+} */
+#text-para-sec {
+    font-size: 15px;
+    font-weight: 600;
+    opacity: 0.8;
+    letter-spacing: 1.2px;
+    /* line-height: 20px;  */
+    font-family: 'Space Mono', monospace;
+
+}
+
+.Menu-list {
+    display: flex;
+    justify-content: center;
+    gap: 1.2rem;
+    margin-top: 15px;
+}
+
+.Menu-list li {
+    list-style: none;
+}
+
+.list-head {
+    color: rgba(60, 0, 255, 0.927);
+    font-size: 20px;
+}
+
+.skills-badge {
+    display: flex;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.inner-style {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    background-color: #F9FAFB;
+    display: flex;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    margin-top: 1.5rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    height: 5rem;
+    width: 10rem;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 480px) {
+    .main {
+        flex-direction: column;
+        height: 50vh;
+    }
+
+    .left-div-herosec {
+        display: none;
+    }
+
+    .content {
+        flex-direction: column;
+        justify-content: center;
+        /* text-align: center; */
+        margin: 20px 20px;
+        gap: 10px;
+    }
+
+    #text-para {
+        text-align: center;
+    }
+
+    .list-head {
+        display: none;
+    }
+
+    #text-para-sec {
+        /* text-align: center; */
+    }
+
+}
