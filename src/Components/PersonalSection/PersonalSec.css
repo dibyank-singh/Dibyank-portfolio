@@ -9,7 +9,7 @@
 }
 
 .p-left-div{
-flex: 35%;
+
 display: flex;
 align-items: center;
 flex-direction: column;
@@ -40,7 +40,7 @@ border-radius: 10px 0px 20px 0px;
 }
 
 .p-right-div{
-    flex: 65%;
+    flex: 1;
 }
 #award-style{
     text-decoration: underline;
@@ -58,7 +58,7 @@ border-radius: 10px 0px 20px 0px;
 }
 .img-container{
     display: flex;
-    gap: 1rem;
+    gap: 3rem;
     padding: 30px;
 }
 .img-card{

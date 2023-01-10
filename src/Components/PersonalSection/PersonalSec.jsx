@@ -5,14 +5,14 @@ const PersonalSec = () => {
   return (
     <section>
         <div className="p-container">
-            <div className="p-left-div">
+            {/* <div className="p-left-div">
               
                <h3 id='h3-text' >Skills</h3>
                 <p className='para-text'> <span>HTML5,CSS3</span> <span>JavaScript,React Js</span>
                  <span>Material-Ui, Bootstrap</span> <span>Node js, Express Js </span> 
                  <span> Mongodb , MySql</span> <span>Redux, Git</span>   </p>
             
-            </div>
+            </div> */}
             <div className="p-right-div"> 
                 <div className="right-inner-div">
                 <h2 id='award-style'>Awards & Achievement </h2>
