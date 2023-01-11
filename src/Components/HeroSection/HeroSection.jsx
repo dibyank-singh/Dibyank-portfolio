@@ -1,6 +1,6 @@
 import React from 'react'
 import "./HeroSection.css"
-import myimg from "../../img/mypic.jpg"
+import myimg from "../../img/profile-pic2.png"
 import { motion } from "framer-motion";
 import {techStack} from "../../constants"
 import {FaLinkedin,FaGithub,FaTwitter,FaYoutube} from "react-icons/fa"
@@ -20,7 +20,7 @@ const HeroSection = () => {
             <div className="content">
             <h2 id='text-head-sec' >About Me</h2>
             <p id='text-para'>Dibyank Singh - <span className='inn-para'>Mern Stack Developer</span> </p>
-            <p id='text-para-sec'>Hi, I'm Software Engineer with excellent development and problem-solving skills, ability to perform well in a team, Passionate about coadingand enjoy writing on my website.</p>
+            <p id='text-para-sec'>Hi, I'm Software Engineer with excellent development and problem-solving skills, ability to perform well in a team, Passionate about coding and enjoy writing on my website.</p>
           <div className="MenuIcon">
         <ul className="Menu-list">
             <h3 className='list-head'>Connect With Me-</h3>
@@ -34,7 +34,8 @@ const HeroSection = () => {
           </div> 
         </div>
     </section>
-    <section>   
+    <section>  
+      <h3 className='skills-header'>Technologies and Tools</h3> 
     <motion.div className="skills-badge ">
             {techStack.map((el, index) => (
               <motion.div

@@ -11,7 +11,7 @@ export const techStack = [
   { name: "Bootstrap", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
   { name: "NodeJS", link: "https://spng.pngfind.com/pngs/s/168-1683198_node-js-logo-png-transparent-png.png" },
   { name: "Express Js", link: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
-  { name: "Redux", link: "https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png" },
+  { name: "Redux", link: "https://assets.stickpng.com/thumbs/62c536ab3a321dd181302f81.png" },
   { name: "Mongo DB", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain.svg" },
   { name: "MySQl", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-plain.svg" },
   { name: "Postman", link: "https://www.vectorlogo.zone/logos/getpostman/getpostman-icon.svg" },

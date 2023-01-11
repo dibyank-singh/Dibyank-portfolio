@@ -1,6 +1,6 @@
 import React from 'react'
 import "./Header.css"
-import Mypic from "../../img/dkimg.png"
+import Mypic from "../../img/profile-pic.png"
 import { motion } from "framer-motion";
 import {FaLinkedin,FaGithub,FaTwitter,FaYoutube} from "react-icons/fa"
 
@@ -40,7 +40,7 @@ const Header = () => {
         </div>
 
         <motion.div className="right-div">
-        <div className="bg-shape"></div>
+        {/* <div className="bg-shape"></div> */}
         <img className='my-pic' src={Mypic} alt="My-pic" />
         </motion.div>
        </div>

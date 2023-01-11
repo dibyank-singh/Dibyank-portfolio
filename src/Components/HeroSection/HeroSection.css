@@ -20,9 +20,9 @@ section {
 }
 
 .myimg img {
-    width: 22vw;
-    height: 40vh;
-    border-radius: 20px;
+    height: 43vh;
+    width: 100%;
+    /* border-radius: 20px; */
     border: 2px solid rgb(106, 103, 103);
 }
 
@@ -82,13 +82,17 @@ section {
     color: rgba(60, 0, 255, 0.927);
     font-size: 20px;
 }
-
+.skills-header{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 3rem;
+}
 .skills-badge {
     display: flex;
     margin-top: 2rem;
     margin-bottom: 2rem;
     flex-wrap: wrap;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .inner-style {
@@ -137,6 +141,12 @@ section {
 
     #text-para-sec {
         /* text-align: center; */
+    }
+    .skills-badge {
+        justify-content:space-around;
+    }
+    .inner-style{
+     
     }
 
 }
