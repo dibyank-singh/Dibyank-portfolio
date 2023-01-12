@@ -18,8 +18,8 @@ export const data=[
     },
     {
         id:4,
-        img:"/img/react-page.png",
-        link:"https://github.com/dibyank-singh/React-Singlepageweb"
+        img:"/img/ecom-my.png",
+        link:"https://github.com/dibyank-singh/Ecommerce-Site-MERN-"
     },
     {
         id:5,
@@ -30,6 +30,21 @@ export const data=[
         id:6,
         img:"/img/Breakingbad.jpg",
         link:"https://breaking-bad-appreact.netlify.app/"
+    },
+    {
+        id:7,
+        img:"/img/react-page.png",
+        link:"https://github.com/dibyank-singh/React-Singlepageweb"
+    },
+    {
+        id:8,
+        img:"/img/inventory-app.png",
+        link:"https://github.com/dibyank-singh/InventoryManagementApp-Mern-Stack-"
+    },
+    {
+        id:9,
+        img:"/img/Random-color.png",
+        link:"https://random-color-generator-in.netlify.app/"
     },
 ]
 

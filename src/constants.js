@@ -8,6 +8,7 @@ export const techStack = [
   { name: "Javascript", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" },
   { name: "React Js", link: "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/2300px-React-icon.svg.png" },
   { name: "Material-UI", link: "https://v4.material-ui.com/static/logo.png" },
+  { name: "Styled Component", link: "https://www.styled-components.com/atom.png"},
   { name: "Bootstrap", link: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-plain.svg" },
   { name: "NodeJS", link: "https://spng.pngfind.com/pngs/s/168-1683198_node-js-logo-png-transparent-png.png" },
   { name: "Express Js", link: "https://upload.wikimedia.org/wikipedia/commons/6/64/Expressjs.png" },
