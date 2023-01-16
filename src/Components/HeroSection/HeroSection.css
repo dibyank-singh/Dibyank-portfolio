@@ -77,6 +77,10 @@ section {
 .Menu-list li {
     list-style: none;
 }
+.Menu-list .icon-style {
+ color: black;
+}
+
 
 .list-head {
     color: rgba(60, 0, 255, 0.927);

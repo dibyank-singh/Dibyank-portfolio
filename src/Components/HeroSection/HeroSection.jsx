@@ -24,10 +24,10 @@ const HeroSection = () => {
           <div className="MenuIcon">
         <ul className="Menu-list">
             <h3 className='list-head'>Connect With Me-</h3>
-         <a href="https://www.linkedin.com/in/dibyank-singh55/" className='icon-style'target="_blank" > <li><FaLinkedin/></li></a> 
-         <a href="https://github.com/dibyank-singh"target="_blank"> <li><FaGithub/> </li></a>
-         <a href="https://twitter.com/web_dev_Dk"target="_blank"><li><FaTwitter/></li></a> 
-         <a href="https://www.youtube.com/channel/UCgZ7ipbbZtTLijRtHOijyPg"target="_blank"><li><FaYoutube/></li></a> 
+         <a href="https://www.linkedin.com/in/dibyank-singh55/" target="_blank" > <li className='icon-style'><FaLinkedin/></li></a> 
+         <a href="https://github.com/dibyank-singh"target="_blank"> <li className='icon-style'><FaGithub/> </li></a>
+         <a href="https://twitter.com/web_dev_Dk"target="_blank"><li className='icon-style'><FaTwitter/></li></a> 
+         <a href="https://www.youtube.com/channel/UCgZ7ipbbZtTLijRtHOijyPg"target="_blank"><li className='icon-style'><FaYoutube/></li></a> 
         </ul>
          </div>
             </div>

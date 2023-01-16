@@ -23,10 +23,9 @@ const Header = () => {
               </div>
               <div className="discription">
                 <p>
-                 Hii, I'm Mern stack developer| Co-founder of Theopenindia| Looking for great career opportunity |
+                 Hii, I'm Full Stack MERN developer| Co-founder of Theopenindia| Looking for great career opportunity |
                 </p>
               </div>
-             
               <div className="MenuIcon">
                  <ul className="Menu-list-header">
                  <a href="https://www.linkedin.com/in/dibyank-singh55/" className='icon-style'target="_blank" > <li><FaLinkedin/></li></a> 

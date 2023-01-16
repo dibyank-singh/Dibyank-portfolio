@@ -38,7 +38,7 @@ export const data=[
     },
     {
         id:8,
-        img:"/img/inventory-app.png",
+        img:"/img/openai.png",
         link:"https://github.com/dibyank-singh/InventoryManagementApp-Mern-Stack-"
     },
     {
@@ -47,6 +47,7 @@ export const data=[
         link:"https://random-color-generator-in.netlify.app/"
     },
 ]
+
 
 
 export const award=[
