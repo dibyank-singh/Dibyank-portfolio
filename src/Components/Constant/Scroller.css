@@ -1,0 +1,40 @@
+.main-scr-wrapper{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+}
+
+.scroller-style{
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  color: #FFFFFF;
+  background-color: blue;
+  position: fixed;
+  bottom: 5rem;
+  right: 3.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  z-index: 999;
+
+}
+.scr-icon-styl{
+    animation: gototop 1.2s linear infinite alternate-reverse;
+}
+@keyframes gototop {
+    0%{
+        transform: translateY(0.1rem);
+    }
+    100%{
+        transform: translateY(0.8rem);
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .scroller-style{
+        right: 0.5rem;
+        bottom: 5rem;
+    }
+}

@@ -1,3 +1,4 @@
+import Scroller from "./Components/Constant/Scroller";
 import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import HeroSection from "./Components/HeroSection/HeroSection";
@@ -17,6 +18,7 @@ function App() {
     <Carts/>
     <PersonalSec/>
     <Footer/>
+    <Scroller/>
     </>
   );
 }
