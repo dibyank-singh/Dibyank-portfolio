@@ -37,7 +37,7 @@ const Header = () => {
              <a href="/DibyankResume.pdf" download className='btn'>Download CV</a>
           </div>
         </div>
-
+ 
         <motion.div className="right-div">
         {/* <div className="bg-shape"></div> */}
         <img className='my-pic' src={Mypic} alt="My-pic" />

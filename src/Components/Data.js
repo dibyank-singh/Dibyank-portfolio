@@ -19,7 +19,7 @@ export const data=[
     {
         id:4,
         img:"/img/ecom-my.png",
-        link:"https://github.com/dibyank-singh/Ecommerce-Site-MERN-"
+        link:"https://devecommercefrontend.netlify.app/"
     },
     {
         id:5,
