@@ -34,7 +34,7 @@ const Header = () => {
                  <a href="https://www.youtube.com/channel/UCgZ7ipbbZtTLijRtHOijyPg"target="_blank"><li><FaYoutube/></li></a> 
                  </ul>
              </div>
-             <a href="/DibyankResume.pdf" download className='btn'>Download CV</a>
+             <a href="/DibyankResumet.pdf" download className='btn'>Download CV</a>
           </div>
         </div>
  
