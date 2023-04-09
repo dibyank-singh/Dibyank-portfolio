@@ -4,7 +4,7 @@ export const data=[
     {
         id:1,
         img:"/Img/blog-webimg.png",
-        link:"https://mern-myblogwebsite.herokuapp.com/"
+        link:"https://blogwebsitemernstack.cyclic.app/"
     },
     {
         id:2,
@@ -14,7 +14,7 @@ export const data=[
     {
         id:3,
         img:"/img/inshort-page.png",
-        link:"https://myinshort-app.herokuapp.com/"
+        link:"https://inshortappmernstack.cyclic.app/"
     },
     {
         id:4,
@@ -39,7 +39,7 @@ export const data=[
     {
         id:8,
         img:"/img/openai.png",
-        link:"https://github.com/dibyank-singh/InventoryManagementApp-Mern-Stack-"
+        link:"https://imagegenopenainodejs.cyclic.app/"
     },
     {
         id:9,
